@@ -32,6 +32,7 @@ else if($per>= 50)
 }
 else{
     $grade="Fail";
+    
 }
 fputcsv($f,array($name,$english,$nepali,$science,$computer,$math,$total,$per."%",$grade));
 fclose($f);
